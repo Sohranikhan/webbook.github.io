@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Web Devalopment Books</title>
+  <link rel="stylesheet" href="style.css">
+   
+
+</head>
+
+<body>
+  <a href="https://wa.me/qr/OWABQ26ZIISKG1" id="con"><img src="tele.png" alt="" class="he1"></a>
+  <div id="line"></div>
+  <a href="index.html"><img src="Amir_2.png" id="amir"></a>
+  
+
+
+  <div id="navbar">
+    <a href="index.html"><h2 class="logo">WebBooks</h2></a>
+   
+
+    <div id="burger">
+       <div id="first"></div>
+       <div id="noe"></div>
+       <div id="last"></div>
+     </div>
+      <div id="list" class="list">
+     
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Programs</a>
+        <a href="#">Items</a>
+        <a href="#">Contact Us</a>
+     
+      </div>
+  </div>
+  
+  <section id="sect">
+   <div class="headb">
+    <h4>All</h4>
+    <h1 class="big1">BOOKS</h1>
+    <h4>about</h4>
+    <h3 class="big">*WebSite Devalopment <br>*FrontEnd Devalopment and <br>*BackEnd Devalopment</h3>
+  <a href="#books">Read/Download</a>
+  </div>
+    
+   <div class="imgsec">
+     <img src="img3.jpg" alt="">
+   </div>
+  </section>
+  
+  <section>
+    <div id="para">
+      <h2>My Introduction</h2>
+      <p>
+         <b>Amir Sohail</b> is an experienced IT professional who has held senior
+         positions in a range of companies, most recently serving as chief
+         technology officer and chief operating officer of a global bank. Now retired,
+         he spends his time writing and long-distance running.
+      </p>
+    </div>
+    <h2>Books</h2>
+    <div id="books">
+      <div id="cdiv">
+        <img src="1.png">
+        <a href="1.pdf" download>Download</a>
+      </div>
+      <div id="cdiv">
+        <img src="2.png">
+        <a href="2.pdf" download>Download</a>
+      </div>
+      <div id="cdiv">
+        <img src="3.png">
+        <a href="3.pdf" download>Download</a>
+      </div>
+      <div id="cdiv">
+        <img src="4.png">
+        <a href="4.pdf" download>Download</a>
+      </div>
+      <div id="cdiv">
+        <img src="5.png">
+        <a href="5.pdf" download>Download</a>
+      </div>
+
+      <div id="cdiv">
+         <img src="1.png">
+         <a href="1.pdf" download>Download</a>
+       </div>
+       <div id="cdiv">
+         <img src="2.png">
+         <a href="2.pdf" download>Download</a>
+       </div>
+       <div id="cdiv">
+         <img src="3.png">
+         <a href="3.pdf" download>Download</a>
+       </div>
+       <div id="cdiv">
+         <img src="4.png">
+         <a href="4.pdf" download>Download</a>
+       </div>
+       <div id="cdiv">
+         <img src="5.png">
+         <a href="5.pdf" download>Download</a>
+       </div>
+
+    </div>
+
+  </section>
+
+  <footer>
+    <h2 style="color:white;" id="contact-us">Contact Us</h2>
+    <div class="foo-flex">
+      <div class="row1">
+        <h3>My Accounts</h3>
+        <a href="github">GitHub</a>
+        <a href="linkdin">LinkedIn</a>
+        <a href="twitter">Twitter</a>
+        <a href="facebook">Facebook</a>
+
+      </div>
+      <div class="row2">
+        <h3>Others</h3>
+        <a href="https://wa.me/qr/OWABQ26ZIISKG1">WhatsApp</a>
+        <a href="mailto: sohailppp1121@gmail.com">Gmail</a>
+        <a href="tel:+923486110143">phone</a>
+      </div>
+
+    </div>
+    <h4 style="text-align: center;margin-top: 20px;">©2022-@mir.pk All Right Reserved</h4>
+  </footer>
+  <script>
+    var t = setTimeout(
+      function laterOn() {
+        document.querySelector('.he1').style.display = 'block';
+
+
+      },
+      1000
+    );
+    var l = setTimeout(
+      function line() {
+        document.querySelector('#line').style.display = 'block';
+
+
+      },
+      1100
+    );
+    var a = setTimeout(
+      function amir() {
+        document.querySelector('#amir').style.display = 'block';
+
+
+      },
+      1200
+    );
+
+    let list = document.querySelector('#list');
+    let first = document.querySelector('#first');
+    let last = document.querySelector('#last');
+    let noe = document.querySelector('#noe');
+    let burger = document.querySelector('#burger').addEventListener('click', function() {
+      list.classList.toggle('list');
+      first.classList.toggle('div1');
+      last.classList.toggle('div2');
+      noe.classList.toggle('none');
+    })
+  </script>
+</body>
+
+</html>

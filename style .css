@@ -1,0 +1,347 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+a{
+  text-decoration: none;
+}
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    width: 100%;
+    background: white;
+  }
+  #imag:hover {
+    transform: scale(1.09);
+  }
+
+  .he1 {
+    display: none;
+    width: 53px;
+    height: 53px;
+    position: absolute;
+    bottom: 2.1rem;
+    right: 0rem;
+    animation: how 1s;
+    position: fixed;
+    z-index: 100;
+    border-radius: 50%;
+border: 2px solid rgba(0, 0, 0,0.2) ;
+  }
+
+  @keyframes how {
+    0% {
+
+      transform: scale(1.1);
+    }
+
+    100% {
+
+      transform: scale(1);
+
+    }
+  }
+
+  #sect {
+   width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    height: auto;
+    background: linear-gradient(to top left, #d000e3,#00ffff);
+    
+  }
+#para{
+    
+    width: 100%;
+    }
+  p {
+    padding: 4px 14px;
+    color:rgb(56, 56, 56);
+   font-weight: 200;
+    font-weight: 500;
+    margin: 0 2rem;
+  }
+
+  #amir {
+    width: 51px;
+    height: 51px;
+    position: absolute;
+    bottom: 6.9rem;
+    right: 0.1rem;
+    border-radius: 50%;
+    display: none;
+    position: fixed;
+  border: 2px solid rgba(0, 0, 0,0.2);
+  z-index: 100;
+  }
+
+  #line {
+    width: 3.3rem;
+    height: 8rem;
+    background: rgba(0, 0, 0, 0.7);
+    transition: 2s;
+    z-index: 99;
+    position: absolute;
+    bottom: 2.1rem;
+    right: 0rem;
+    border-radius: 30px;
+    display: none;
+    position: fixed;
+  }
+
+  #navbar {
+    width: 100%;
+    height: 54px;
+    background: dodgerblue;
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+
+  .logo {
+    color: white;
+    margin: 0 1rem;
+cursor: pointer;
+  }
+
+  nav a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+  }
+
+    #burger{
+      display: flex;
+      flex-direction: column;
+      z-index: 101;
+    }
+    #burger div{
+      width: 35px;
+      height: 4px;
+      background: white;
+      margin: 2px;
+      border-radius: 20px;
+      transition: 0.4s;
+    }
+.list{
+           display: none;
+          }
+          #list{
+            position: absolute;
+            top: 54px;
+            right: 0;
+            background: dodgerblue;
+            width: 40%;
+            height: auto;
+            border-radius: 0 0 0 10px;
+            transition: 0.4s all;
+            padding:0.2rem 0rem;
+            animation: listgo 0.4s;
+            z-index: 100;
+            
+          }
+           @keyframes listgo{
+            0%{
+              transform: translateY(-100%);
+              opacity: 0.01;
+            }
+            100%{
+              transform: translateY(0%);
+              opacity: 1;
+            }
+          }
+          #list a{
+            margin: 0.7rem 0;
+            text-decoration: none;
+            color: white;
+            width: 100%;
+            height: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            
+          }
+          #list a:active{
+            background-color: whitesmoke;
+            color: royalblue;
+          }
+           #list a:hover{
+             background-color:ghostwhite;
+             color: royalblue;
+           }
+           .div1{
+      transform: translateY(6px) rotate(45deg);
+transition: 0.4s;
+    }
+    .div2{
+      transform: translateY(-2px) rotate(-45deg);
+      transition: 0.4s;
+    }
+    .none{
+      display: none;
+      transition: 0.4s;
+    }
+ 
+
+  #books {
+    display: flex;
+    flex-wrap: wrap;
+width: 95%;
+    margin:0 auto;
+  }
+
+  #cdiv {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  #cdiv img {
+    width: 200px;
+    height: 250px;
+    border-radius: 5px;
+    margin: 15px 15px 0 15px;
+    box-shadow: 2px 2px 4px lightslategrey;
+  }
+
+  #cdiv a {
+    margin: 6px auto;
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 5px;
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background:#0808ff;
+    box-shadow: 1px 2px 15px white;
+  }
+
+  h2 {
+    color: #0808ff;
+
+    text-align: center;
+    margin: 1rem 0 0 0;
+    border-radius: 5px;
+    height: 35px;
+  }
+
+  footer {
+    background: linear-gradient(to top left, purple, rgb(85,34,193));
+    color: white;
+    padding: 17px 2px;
+    margin: 30px 0 0 0;
+  }
+
+  .foo-flex {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .row1,
+  .row2 {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .row2 a,
+  .row1 a {
+    color: white;
+    text-decoration: underline;
+    margin: 7px;
+  }
+  .headb{
+    color: white;
+    height: auto;
+    
+    display: block;
+    font-size: 21px;
+    flex-direction: column;
+    text-align: start;
+    margin: 0 2rem;
+    
+  }
+.big1{
+    font-size: 70px;
+}
+.headb h3{
+    font-size: 25px;
+}
+.headb a{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    width: 180px;
+    height: 40px;
+    padding:0 7px;
+    font-weight: 400;
+    border-radius: 5px;
+    margin:1rem 0.5rem;
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+    font-size: large;
+    color: white;
+    background:#d60242;
+    box-shadow: 1px 2px 12px #0c2c70;
+}
+.imgsec{
+  
+}
+.imgsec img{
+  width: 400px;
+  height: 440px;
+  background: transparent;
+  border-radius: 1rem 0 0 1rem;
+  
+}
+  @media(max-width:600px) {
+    #sect{
+      display: flex;
+      flex-direction: column;
+      padding: 3rem auto;
+    }
+    .headb{
+      height: 70vh;
+      padding-top: 3rem;
+    }
+.imgsec img{
+  width: 100%;
+  height: auto;
+  border-radius: 0;
+}
+    #cdiv img {
+      width: 90%;
+      height: auto;
+    }
+
+    #cdiv a {
+      width: 90%;
+
+    }
+    p{
+      margin: 0 5px;
+    }
+.logo{
+margin: 0 10%;
+}
+  }
+
+  @media(min-width:600px) {
+  
+  }
