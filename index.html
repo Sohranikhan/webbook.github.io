@@ -6,11 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Web Devalopment Books</title>
   <style>
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
     * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Nunito', sans-serif;
   }
 a{
   text-decoration: none;
@@ -61,8 +62,7 @@ border: 2px solid rgba(0, 0, 0,0.2) ;
     justify-content: space-between;
    
     height: auto;
-    background: linear-gradient(to top left, #d000e3,#00ffff);
-    
+    background: whitesmoke;
   }
 #para{
     
@@ -115,16 +115,26 @@ border: 2px solid rgba(0, 0, 0,0.2) ;
 
   }
 
-  .logo {
-display:flex;
-color: white;
-align-items: center;
-cursor: pointer;
+ .logplus{
+    display: flex;
+    align-items: center;
+    height: 54px;
+    justify-content: center
   }
-.logo img{
-width:45px;
-height:45px;
+  .logplus a{
+    display: flex;
+  }
+.logplus h2{
+  align-items: center;
+  color: white;
+  font-size: 18px;
+  font-weight: 800;
+  justify-content: center;
 }
+  .logplus img{
+    width: 45px;
+    height: 45px;
+  }
   nav a {
     margin: 0 20px;
     text-decoration: none;
@@ -278,7 +288,7 @@ width: 95%;
     margin: 7px;
   }
   .headb{
-    color: white;
+    color: #144ba8;
     height: auto;
     
     display: block;
@@ -371,8 +381,10 @@ margin: 0 10%;
 
 
   <div id="navbar">
-    <a href="index.html"><h2 class="logo"><img src="book-png-15304.png"/>WebBook</h2></a>
-   
+    <div class="logplus">
+    <a href="index.html"><img src="/books/book-png-15304.png">
+    <h2>WebBook</h2></a>
+   </div>
 
     <div id="burger">
        <div id="first"></div>
@@ -395,7 +407,7 @@ margin: 0 10%;
     <h4>All</h4>
     <h1 class="big1">BOOKS</h1>
     <h4>about</h4>
-    <h3 class="big">*WebSite Devalopment <br>*FrontEnd Devalopment and <br>*BackEnd Devalopment</h3>
+    <h3 class="big">WebSite Devalopment <br>FrontEnd Devalopment and <br>BackEnd Devalopment</h3>
   <a href="#books">Read/Download</a>
   </div>
     
